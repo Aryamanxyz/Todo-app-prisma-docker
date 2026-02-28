@@ -1,0 +1,39 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Prisma Generated Files
+# =========================
+node_modules/.prisma
+/src/generated/prisma
+
+# =========================
+# Docker
+# =========================
+postgres-data/
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Cache
+# =========================
+dist/
+build/
